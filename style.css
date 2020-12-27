@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+    font-family: sans-serif,serif;
+}
+.start{
+    background-image: url("orange.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(241, 233, 233);
+    height: 90vh;
+    
+    
+}
+.start header{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.start header a{
+    text-decoration: none;
+    color: white;
+    
+}
+h1{
+    text-align: center;
+}
+.h{
+    font-size: 24px;
+    display: block;
+}
+p{
+    text-align: center;
+    font-size: 23px;
+}
+.middle{
+    background-color: white;
+    height: 250px;
+    padding-top: 60px;
+    
+    
+}
+.mbutton{
+    width: 90%;
+    height: 50px;
+    
+    background-color:#F89104;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 5%;
+    outline: none;
+
+
+    border: none;
+}
+label{
+    color: black;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    
+}
+#city{
+    
+    border-radius: 10px;
+    outline: none;
+    width: 90%;
+    height: 30px;
+    margin-left: 5%;
+}
+.auth{
+    
+    text-align: center;
+    
+}
+.auth p{
+    display: block;
+font-size: 1.1rem;
+}
+.food{
+    width: 100%;
+}
