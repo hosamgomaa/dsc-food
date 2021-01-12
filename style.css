@@ -40,6 +40,10 @@ p{
     
     
 }
+.mbutton:hover{
+    background-color:#d8820b;
+
+}
 .mbutton{
     width: 90%;
     height: 50px;
@@ -84,6 +88,35 @@ label{
     display: block;
 font-size: 1.1rem;
 }
-.food{
+.food {
     width: 100%;
+}
+.overlay {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    place-content: center;
+    color: white;
+    display: none;
+    opacity: 0;
+}
+.overlay-animation {
+    animation: overlay 5s forwards;
+    -webkit-animation: overlay 5s forwards;
+}
+@keyframes overlay {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
