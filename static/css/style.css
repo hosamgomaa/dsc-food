@@ -3,7 +3,7 @@ body{
     font-family: sans-serif,serif;
 }
 .start{
-    background-image: url("orange.jpg");
+    background-image: url("/static/images/orange.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

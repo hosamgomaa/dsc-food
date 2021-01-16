@@ -1,0 +1,3 @@
+use "set" instead of "export"
+use "python -m flask run" instead of "flask run"
+create static file,the add images,css,js to it
