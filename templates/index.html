@@ -20,11 +20,11 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatum minima, eaque rem nobis quidem laboriosam quam. Pariatur, reiciendis ipsa?</p>
     </div>
     <div class="middle">
-        <form action="">
+        <form action="{{ url_for('search') }}" method="POST">
             <label for="city"> Enter Your City</label>
-            <input  type="text" id="city">
+            <input  type="text" id="city" name="city">
             <p style="color: gray;">Example:New york</p>
-            <button id="orangebutton" class="mbutton" type="button">Find</button>
+            <button id="orangebutton" class="mbutton" type="submit">Find</button>
         </form>
     </div>
 </div>

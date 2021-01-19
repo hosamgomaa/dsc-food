@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h3> Searching .......</h3>
+    </div>
+<div class="start">
+    <header>
+        <a href="#">yummy.eats</a>
+    </header>
+    <div>
+        <h1><span class="h">The Healthy</span>Eating Experience</h1>
+    </div>
+    <ul>
+                    
+        {% for food_name in food_names %}
+        <li>
+        {{ food_name.food }}
+        </li>
+        {% endfor %}
+
+    </ul>
+</div>
+   
+</body>
+</html>
